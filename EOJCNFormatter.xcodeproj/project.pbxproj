@@ -14,16 +14,6 @@
 		D868C05329CD45360050D6B7 /* EOJNumberCNFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C05129CD45350050D6B7 /* EOJNumberCNFormatter.m */; };
 		D868C05429CD45360050D6B7 /* EOJNumberCNFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C05129CD45350050D6B7 /* EOJNumberCNFormatter.m */; };
 		D868C05529CD45360050D6B7 /* EOJNumberCNFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D868C05229CD45350050D6B7 /* EOJNumberCNFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D868C05E29CD45CF0050D6B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C05D29CD45CF0050D6B7 /* AppDelegate.m */; };
-		D868C06129CD45CF0050D6B7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C06029CD45CF0050D6B7 /* SceneDelegate.m */; };
-		D868C06429CD45CF0050D6B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C06329CD45CF0050D6B7 /* ViewController.m */; };
-		D868C06729CD45CF0050D6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D868C06529CD45CF0050D6B7 /* Main.storyboard */; };
-		D868C06929CD45D20050D6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D868C06829CD45D10050D6B7 /* Assets.xcassets */; };
-		D868C06C29CD45D20050D6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D868C06A29CD45D20050D6B7 /* LaunchScreen.storyboard */; };
-		D868C06F29CD45D20050D6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C06E29CD45D20050D6B7 /* main.m */; };
-		D868C07929CD45D20050D6B7 /* EOJCNFormatterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C07829CD45D20050D6B7 /* EOJCNFormatterDemoTests.m */; };
-		D868C08329CD45D20050D6B7 /* EOJCNFormatterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C08229CD45D20050D6B7 /* EOJCNFormatterDemoUITests.m */; };
-		D868C08529CD45D20050D6B7 /* EOJCNFormatterDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D868C08429CD45D20050D6B7 /* EOJCNFormatterDemoUITestsLaunchTests.m */; };
 		D868C09029CD46650050D6B7 /* EOJCNFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868C03529CD44D90050D6B7 /* EOJCNFormatter.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,22 +57,8 @@
 		D868C05129CD45350050D6B7 /* EOJNumberCNFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOJNumberCNFormatter.m; sourceTree = "<group>"; };
 		D868C05229CD45350050D6B7 /* EOJNumberCNFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOJNumberCNFormatter.h; sourceTree = "<group>"; };
 		D868C05A29CD45CF0050D6B7 /* EOJCNFormatterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EOJCNFormatterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D868C05C29CD45CF0050D6B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D868C05D29CD45CF0050D6B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D868C05F29CD45CF0050D6B7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		D868C06029CD45CF0050D6B7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D868C06229CD45CF0050D6B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D868C06329CD45CF0050D6B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D868C06629CD45CF0050D6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D868C06829CD45D10050D6B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D868C06B29CD45D20050D6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D868C06D29CD45D20050D6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D868C06E29CD45D20050D6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D868C07429CD45D20050D6B7 /* EOJCNFormatterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EOJCNFormatterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D868C07829CD45D20050D6B7 /* EOJCNFormatterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOJCNFormatterDemoTests.m; sourceTree = "<group>"; };
 		D868C07E29CD45D20050D6B7 /* EOJCNFormatterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EOJCNFormatterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D868C08229CD45D20050D6B7 /* EOJCNFormatterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOJCNFormatterDemoUITests.m; sourceTree = "<group>"; };
-		D868C08429CD45D20050D6B7 /* EOJCNFormatterDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOJCNFormatterDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +107,6 @@
 			children = (
 				D868C03729CD44D90050D6B7 /* EOJCNFormatter */,
 				D868C04129CD44DA0050D6B7 /* EOJCNFormatterTests */,
-				D868C05B29CD45CF0050D6B7 /* EOJCNFormatterDemo */,
-				D868C07729CD45D20050D6B7 /* EOJCNFormatterDemoTests */,
-				D868C08129CD45D20050D6B7 /* EOJCNFormatterDemoUITests */,
 				D868C03629CD44D90050D6B7 /* Products */,
 				D868C08F29CD46650050D6B7 /* Frameworks */,
 			);
@@ -168,41 +141,6 @@
 				D868C04D29CD452C0050D6B7 /* EOJNumberCNFormatter_FinCNFormatStringTests.m */,
 			);
 			path = EOJCNFormatterTests;
-			sourceTree = "<group>";
-		};
-		D868C05B29CD45CF0050D6B7 /* EOJCNFormatterDemo */ = {
-			isa = PBXGroup;
-			children = (
-				D868C05C29CD45CF0050D6B7 /* AppDelegate.h */,
-				D868C05D29CD45CF0050D6B7 /* AppDelegate.m */,
-				D868C05F29CD45CF0050D6B7 /* SceneDelegate.h */,
-				D868C06029CD45CF0050D6B7 /* SceneDelegate.m */,
-				D868C06229CD45CF0050D6B7 /* ViewController.h */,
-				D868C06329CD45CF0050D6B7 /* ViewController.m */,
-				D868C06529CD45CF0050D6B7 /* Main.storyboard */,
-				D868C06829CD45D10050D6B7 /* Assets.xcassets */,
-				D868C06A29CD45D20050D6B7 /* LaunchScreen.storyboard */,
-				D868C06D29CD45D20050D6B7 /* Info.plist */,
-				D868C06E29CD45D20050D6B7 /* main.m */,
-			);
-			path = EOJCNFormatterDemo;
-			sourceTree = "<group>";
-		};
-		D868C07729CD45D20050D6B7 /* EOJCNFormatterDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				D868C07829CD45D20050D6B7 /* EOJCNFormatterDemoTests.m */,
-			);
-			path = EOJCNFormatterDemoTests;
-			sourceTree = "<group>";
-		};
-		D868C08129CD45D20050D6B7 /* EOJCNFormatterDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D868C08229CD45D20050D6B7 /* EOJCNFormatterDemoUITests.m */,
-				D868C08429CD45D20050D6B7 /* EOJCNFormatterDemoUITestsLaunchTests.m */,
-			);
-			path = EOJCNFormatterDemoUITests;
 			sourceTree = "<group>";
 		};
 		D868C08F29CD46650050D6B7 /* Frameworks */ = {
@@ -386,9 +324,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D868C06C29CD45D20050D6B7 /* LaunchScreen.storyboard in Resources */,
-				D868C06929CD45D20050D6B7 /* Assets.xcassets in Resources */,
-				D868C06729CD45CF0050D6B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D868C06429CD45CF0050D6B7 /* ViewController.m in Sources */,
-				D868C05E29CD45CF0050D6B7 /* AppDelegate.m in Sources */,
-				D868C06F29CD45D20050D6B7 /* main.m in Sources */,
-				D868C06129CD45CF0050D6B7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D868C07929CD45D20050D6B7 /* EOJCNFormatterDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,8 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D868C08529CD45D20050D6B7 /* EOJCNFormatterDemoUITestsLaunchTests.m in Sources */,
-				D868C08329CD45D20050D6B7 /* EOJCNFormatterDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,25 +407,6 @@
 			targetProxy = D868C09229CD46650050D6B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D868C06529CD45CF0050D6B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D868C06629CD45CF0050D6B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D868C06A29CD45D20050D6B7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D868C06B29CD45D20050D6B7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D868C04529CD44DA0050D6B7 /* Debug */ = {
