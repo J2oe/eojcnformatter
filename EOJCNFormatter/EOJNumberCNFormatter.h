@@ -16,11 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 将金额字符串转换为中文传统金额字符串
 /// - Parameter aString: 金额字符串
-+ (NSString *)cnFinNumStringFromString:(NSString *)aString;
++ (NSString *)cnFinNumStringFromString:(nullable NSString *)aString;
 
 
 /// 数字字符串
-@property(nonatomic,copy)NSString *numString;
+@property(nonatomic,copy,nullable)NSString *numString;
 
 /// 中文金额字符串
 - (NSString *)getFinCNFormatString;
