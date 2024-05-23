@@ -110,6 +110,16 @@
     XCTAssertEqualObjects(result, @"伍仟元零肆厘");
 }
 
+- (void)test5000__0048 {
+    NSString *result = [EOJNumberCNFormatter cnFinNumStringFromString:@"5000.0048"];
+    XCTAssertEqualObjects(result, @"伍仟元零伍厘");
+}
+
+- (void)test5000__104 {
+    NSString *result = [EOJNumberCNFormatter cnFinNumStringFromString:@"5000.104"];
+    XCTAssertEqualObjects(result, @"伍仟元壹角零肆厘");
+}
+
 - (void)test10 {
     NSString *result = [EOJNumberCNFormatter cnFinNumStringFromString:@"10"];
     XCTAssertEqualObjects(result, @"壹拾元整");

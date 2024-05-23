@@ -127,8 +127,12 @@ NSArray *eUnits = @[@"", @"亿"]; // TODO: 超过16位的，需要新的单位�
     if (length == 2) {
         // 小数部分. 最多3位，超过则截取
         NSString *fraPart = @"";
-        if ([strArr.lastObject length] > 3) {
-            fraPart = [strArr.lastObject substringToIndex:3];
+        if ([strArr.lastObject length] >= 4) {
+            NSString *temp = [strArr.lastObject substringToIndex:4];
+            NSMutableString *mTemp = [NSMutableString stringWithString:temp];
+            [mTemp insertString:@"." atIndex:3];
+            NSInteger rounded = round(mTemp.doubleValue);
+            fraPart = [NSString stringWithFormat:@"%03ld", (long)rounded];
         } else {
             fraPart = strArr.lastObject;
         }
